@@ -1,0 +1,236 @@
+body{
+    background-image: url(nayyar.jpg);
+    color: #555555;
+    font-family: serif;
+    font: norma 16px arial;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box-1{
+    background-color: #333;
+    color: #fff;
+    /* border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid; */
+    /* border: 5px rgb(168, 147, 147) solid;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    border-bottom-style: double;
+    border-right-style: dashed;
+    border-left-style: inset;
+    border-left-color: #ce5a5a; */
+    border: 3px solid rgb(205, 108, 124);
+    border-radius: 12px;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    margin: 20px 0;
+
+}
+h1{
+    background-color: #ce5a5a;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-color: rgb(105, 96, 96);
+    text-decoration-thickness: 3px;
+    letter-spacing: 0.1em;
+
+
+}
+
+.box-2{
+    border: 3px double #ccc;
+    border-color: #333;
+    background-color: #333;
+    padding: 20px ;
+    color: #ffffff;
+    border-radius: 12px;
+    border-width: 6px;
+    border-color: #f4a0a0;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 2px #ccc solid;
+    background-color: #333;
+    padding: 28px;
+    border-radius: 15px;
+    color: #ccc;
+    font-size: 20px;
+}
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 10px;
+    list-style-type: none;
+    
+
+}
+.categories li{
+    padding-bottom: 4px;
+    border-bottom: dotted 1px #ac6666;
+    list-style-type: circle;
+    
+}
+a{
+    
+    text-decoration: none;
+    color: rgb(46, 42, 42);
+    color: #ccc;
+    font-size: 1.2em;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    background-color: #333;
+}
+a:active{
+    color: green;
+}
+
+
+.my-form{
+    margin: 2px;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #333;
+    text-align: center;
+    color: #ffffff;
+
+
+}
+.my-form .form{
+    padding-bottom: 15px ;
+}
+ .my-form input[type="text"]{
+    padding: 8px;
+    width: 180px;
+    border-radius: 8px;
+ }
+ .my-form input[type="submit"]{
+    background-color:#676565;
+    color: #fff;
+    padding: 10px;
+    width: 180px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 20px;
+    text-transform: capitalize;
+ }
+ #message{
+    border-radius: 12px;
+ }
+ .button{
+    background: rgb(210, 89, 45);
+    color: #fff;
+    padding: 5px;
+    border-radius: 6px;
+ } 
+  /* Its comments because already applied */
+.clr{
+    clear: both;
+}
+  .block{
+    color: #ccc;
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc ;
+    padding:10px ;
+    box-sizing: border-box;
+    background-color: #333;
+    border-radius: 12px;
+    text-align: justify;
+    margin: 0.1px;
+}
+.main-block{
+    color: #ccc;
+    background-color: #333;
+    float: left;
+    width: 66.2%;
+    border-radius: 12px;
+    text-align: justify;
+    margin: 2px;
+}
+.sidebar{
+    float: right;
+    width: 33.4%;
+    background-color: #333;
+    color: #708020;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 156px;
+    text-align: justify;
+    margin: 0.1px;
+}
+.p-box{
+    color: #c80000;
+    border-radius: 12px;
+    width: 1070px;
+    height: 600px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(box6_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p-box h1{
+
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+ button{
+    position: absolute;
+    background-color: #333;
+    color: #f4f4f4;
+    padding: 12px;
+    width: 100px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+.my-list {
+    color: #f4f4f4;
+ background-color: #555555;
+ border-radius: 12px;
+ display: flex;
+ padding: 12px;
+list-style-type: none;
+text-transform: capitalize;
+ 
+}
+.my-list li{
+    text-decoration: none;
+    padding: 12px;
+}
+.my-list li:last-chlid{
+    background: blue;
+}
+.my-list li:nth-child(3){
+    background:palevioletred ;
+    width: 90px;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
